@@ -1,4 +1,11 @@
-1. Pierwsze zajęcia z oprogramowaniem git.
+Pierwsze zajęcia z oprogramowaniem git.
 Lukasz
 Druga zmiana
 Trzecia zmiana
+
+
+
+
+
+
+Czwarta zmiana
