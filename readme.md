@@ -1,6 +1,6 @@
 Historia pierwszego pliku:
 ==========================
-1. ls
+1. ls                      >>>wypisuje w postaci listy zawartość katalogu
 2. ls --help
 3. ls -la
 4. pwd
