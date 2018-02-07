@@ -1,10 +1,15 @@
-Historia pierwszego pliku:
-==========================
-1. ls                      >>>wypisuje w postaci listy zawartość katalogu
-2. ls --help
-3. ls -la
-4. pwd
-5. unix -clear
+## Pierwsze zajęcia:
+### Przygotowanie stanowiska do pracy:
+  - pobranie obrazu systemu ubuntu
+  - instalacja systemu na stacji roboczej
+### Pierwsze kroki z terminalem:
+```
+1. ls                      //wypisuje w postaci listy zawartość katalogu
+2. ls --help               //wyswietla pomoc dla podprogramu **ls**
+3. ls -la                  //wyswietla zawartość katalogu z plikami ukrytymi, z prawami dostepu
+4. pwd                     //wyswietlenie sciezki do obecnego katalogu
+5. clear                   //czyszczenie konsoli
+```
 6. cd Desktop
 7. cd /Pulpit
 8. cd Pulpit
