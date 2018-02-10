@@ -27,7 +27,8 @@
 ```
 ### Wykonanie pierwszego pliku oraz dodanie do repozytorium na github
 ```
-15. touch test.txt         //touch z argumentem tworzy (jeżeli jeszcze nie istnieje) nowy plik o takiej jak argument nazwie
+15. touch test.txt         //touch z argumentem tworzy (jeżeli jeszcze nie istnieje) 
+                           nowy plik o takiej jak argument nazwie
 16. ls
 17. nano test.txt          //polecenio nano edytuje dany plik
 18. ls -la
@@ -41,7 +42,7 @@
 26  git add .              //rozpoczyna sledzenie zmian wszystkich plikow
 27. git commit             //dodawanie wykonanych zmian do repozytorium
 ```
-> //polaczenie konta z na github z gitem w lokalnym repozytorum
+### Polaczenie konta z na github z gitem w lokalnym repozytorum
 ```
 28. git config --global user.email "lukaszkurasz2@gmail.com"  
 29. git config --global user.name "LukaszKur"
