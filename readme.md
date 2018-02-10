@@ -5,37 +5,48 @@
 ### Pierwsze kroki z terminalem:
 ```
 1. ls                      //wypisuje w postaci listy zawartość katalogu
-2. ls --help               //wyswietla pomoc dla podprogramu **ls**
+2. ls --help               //wyswietla pomoc dla podprogramu ls
 3. ls -la                  //wyswietla zawartość katalogu z plikami ukrytymi, z prawami dostepu
 4. pwd                     //wyswietlenie sciezki do obecnego katalogu
 5. clear                   //czyszczenie konsoli
 ```
-6. cd Desktop
+### Poruszanie sie po strukturze katalogow
+```
+6. cd Desktop              //polecenie cd przejscie do katalogu
 7. cd /Pulpit
-8. cd Pulpit
-9. mkdir LukaszKu
-10. git
+8. cd Pulpit               //przejscie na pulpit
+9. mkdir LukaszKu          //tworzenie nowego katalogu
+```
+### Przygotowanie katalogu pod repozytorium oraz instalacja git
+```
+10. git                    //"git" wyswietla dodtkowe komendy
 11. cd LukaszKu
-12. sud apt install git
-13. sudo apt install git
-14. git help
-15. touch test.txt
+12. sud apt install git    
+13. sudo apt install git   //instalacja git z uprawnieniami administratora
+14. git help               //pomoc dla polecenia git
+```
+### Wykonanie pierwszego pliku oraz dodanie do repozytorium na github
+```
+15. touch test.txt         //touch z argumentem tworzy (jeżeli jeszcze nie istnieje) nowy plik o takiej jak argument nazwie
 16. ls
-17. nano test.txt
+17. nano test.txt          //polecenio nano edytuje dany plik
 18. ls -la
 19. nano test.txt
 20. ls -la
-21. git init
+21. git init               //inicjalizacja git
 22. ls -la
-23. git status
-24. git add test.txt
+23. git status             //sprawdzenie statusu modyfikacji plikow
+24. git add test.txt       //rozpoczyna sledzenie zmian pojedynczego pliku
 25. git status
-26 git add .
-27. git commit
-28. git config --global user.email "lukaszkurasz2@gmail.com"
+26  git add .              //rozpoczyna sledzenie zmian wszystkich plikow
+27. git commit             //dodawanie wykonanych zmian do repozytorium
+```
+> //polaczenie konta z na github z gitem w lokalnym repozytorum
+```
+28. git config --global user.email "lukaszkurasz2@gmail.com"  
 29. git config --global user.name "LukaszKur"
 30. git commit
-31. git log
+31. git log                //wyswietlenie zmian w repozytorium
 32. ls
 33. git status
 34. git log
@@ -58,16 +69,17 @@
 51. git add . 
 52. git commit -m "trzecia zmiana"
 53. git log
-54. git remote add origin https://github.com/LukaszKur/LukaszKu.git
-55. git push -u origin master
+54. git remote add origin https://github.com/LukaszKur/LukaszKu.git   //dodanie sciezki do repozytorium na github
+55. git push -u origin master                                         //inicjalizacja polaczenia
 56. git log
 57. git status
 58. git push -u origin master
-59. nano ~/.gitconfig
+59. nano ~/.gitconfig                                 //sprawdzenie pluku konfiguracji git
 60. nano test.txt
 61. git status
 62. git add .
 63. git commit -m "Czwarta zmiana"
 64. git log
-65. git push
-66. history >readme.md
+65. git push                                         //wyslanie wyszystkiego do repozytorium na github
+```
+### 66. history >readme.md                           //przekazanie histori strumieniem do pliku
